@@ -1,0 +1,17 @@
+{
+  "name": "msal-test",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "tsc && cp -r ./src/landing-pages ./dist/landing-pages && node ./dist/index.js"
+  },
+  "dependencies": {
+    "@azure/msal-node": "^2.0.2",
+    "http": "^0.0.1-security",
+    "open": "^9.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.7"
+  }
+}
